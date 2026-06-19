@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.db
+.env
+ai_core/__pycache__/
+ai_core/snapshots/
+backend/__pycache__/
+frontend/node_modules/
+frontend/dist/
+.vscode/
+.idea/
