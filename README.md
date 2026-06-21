@@ -145,6 +145,42 @@ Open the dashboard at **http://localhost:5173**
 
 ---
 
+## 🐳 Run with Docker
+
+The backend and frontend are fully containerized. The AI core runs natively (outside Docker) since it needs direct access to your webcam hardware.
+
+### Prerequisites
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+
+### 1. Start backend + frontend with one command
+```bash
+docker compose up --build
+```
+
+This builds and runs:
+- **Backend** → `http://localhost:8000`
+- **Frontend dashboard** → `http://localhost:3000`
+
+### 2. Run the AI core separately (needs webcam access)
+```bash
+cd ai_core
+python main.py
+```
+
+### Stop everything
+```bash
+docker compose down
+```
+
+### Project services
+
+| Service | Container | Port | Description |
+|---|---|---|---|
+| Backend | `ai-backend` | 8000 | FastAPI REST + WebSocket API |
+| Frontend | `ai-frontend` | 3000 | React dashboard (served via Nginx) |
+| AI Core | _native, not containerized_ | — | YOLOv8 detection + tracking + zone monitoring |
+
+
 ## 📸 Screenshots
 Live dashboard showing real-time alerts, analytics, and incident history:<img width="1208" height="2570" alt="localhost_5173_" src="https://github.com/user-attachments/assets/56d13cd7-24c4-4755-8e2f-510cdde1528e" />
 
@@ -159,8 +195,8 @@ Live dashboard showing real-time alerts, analytics, and incident history:<img wi
 - [x] FastAPI backend with REST + WebSocket
 - [x] React analytics dashboard
 - [x] Email alerts with snapshots
+- [x] Docker Compose deployment
 - [ ] Multi-camera support
-- [ ] Docker Compose deployment
 - [ ] PostgreSQL production database
 - [ ] GPU-accelerated inference
 
