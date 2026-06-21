@@ -148,7 +148,8 @@ Open the dashboard at **http://localhost:5173**
 
 ## 📸 Screenshots
 Live dashboard showing real-time alerts, analytics, and incident history:
-<img width="1208" height="2570" alt="localhost_5173_" src="https://github.com/user-attachments/assets/56db7861-d93c-42eb-b27c-c26e294ceba0" />
+![Uploading localhost_5173_.png…]()
+
 
 ---
 ## 🗺️ Roadmap
