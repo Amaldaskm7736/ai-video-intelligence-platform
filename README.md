@@ -100,7 +100,7 @@ ai-video-platform/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/ai-video-platform.git
+git clone https://github.com/Amaldaskm7736/ai-video-intelligence-platform.git
 cd ai-video-platform
 ```
 
