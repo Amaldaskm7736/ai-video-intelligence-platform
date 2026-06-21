@@ -1,5 +1,4 @@
-<img width="1208" height="2570" alt="localhost_5173_" src="https://github.com/user-attachments/assets/e4dfcb85-82da-41fd-b301-cfc5fa878918" />
-<img width="1208" height="2570" alt="localhost_5173_" src="https://github.com/user-attachments/assets/d12495c9-9820-4402-8c6d-160787c266c5" />
+
 # 🎥 AI Video Intelligence Platform
 
 A real-time AI-powered surveillance system that detects, tracks, and monitors objects across live video feeds, triggers instant zone-intrusion alerts, and visualizes everything on a live web dashboard.
@@ -147,8 +146,8 @@ Open the dashboard at **http://localhost:5173**
 ---
 
 ## 📸 Screenshots
-Live dashboard showing real-time alerts, analytics, and incident history:
-![Uploading localhost_5173_.png…]()
+Live dashboard showing real-time alerts, analytics, and incident history:<img width="1208" height="2570" alt="localhost_5173_" src="https://github.com/user-attachments/assets/56d13cd7-24c4-4755-8e2f-510cdde1528e" />
+
 
 
 ---
