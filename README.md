@@ -145,14 +145,9 @@ Open the dashboard at **http://localhost:5173**
 ---
 
 ## 📸 Screenshots
-
-> _Add your own screenshots here — dashboard view, webcam detection window, and alert email._
-
-| Live Dashboard | Zone Detection | Alert Email |
-|---|---|---|
-| _screenshot here_ | _screenshot here_ | _screenshot here_ |
-
+Live dashboard showing real-time alerts, analytics, and incident history:
 ---
+![dashboard](https://github.com/user-attachments/assets/localhost_5173_.png)
 
 ## 🗺️ Roadmap
 
